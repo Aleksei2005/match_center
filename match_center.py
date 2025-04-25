@@ -16,12 +16,10 @@ class Match_Center_App:
         self.window.title("Матч-центр")
         self.window.geometry('600x825')
         self.window.resizable(False, False)
-        self.db_name = 'logos.db'
         self.image_width, self.image_height = 200, 200
         self.array = []
         self.check = 0
         self.setup_ui()
-        #self.load_and_display_logo()
         self.window.mainloop()
 
     def setup_ui(self):
