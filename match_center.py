@@ -12,15 +12,14 @@ from playwright.sync_api import sync_playwright
 import time
 import logging
 from datetime import datetime
+
 logging.basicConfig(
     filename='Match_Center_App.log',   # Имя файла для логов
-    filemode='w',
-    level=logging.INFO,         # Уровень логирования (INFO, DEBUG, ERROR и т.д.)
+    filemode='w',   # При каждом запуске программы перезаписываем файл
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',  # Формат записи
     datefmt='%Y-%m-%d %H:%M:%S' # Формат даты
 )
-
-
 
 class Match_Center_App:
     def __init__(self):
