@@ -31,7 +31,6 @@ logging.basicConfig(
     datefmt = '%Y-%m-%d %H:%M:%S'
 )
 
-
 class Match_Center_App:
     def __init__(self):
         self.window = Tk()
